@@ -1,0 +1,10 @@
+comments:
+    allowedFields: ['name', 'message']
+    branch: master
+    format: yml
+    path: "_data/guestbook"
+    commitMessage: "There's been a new message left!"
+    filename: "entry{@timestamp}"
+    moderation: true
+    requiredFields: ['name', 'message']
+
